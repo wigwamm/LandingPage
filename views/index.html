@@ -1,0 +1,252 @@
+<html>
+
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+  <div class='header'>
+    <span class='leftText'>Wigwamm</span>
+    <img class='icon' src='WigwammOrange.png' />
+    <span class='rightText'>Future of the property industry</span>
+  </div>
+
+  <div class='section section1'>
+
+    <div class='rightCont'>
+      <span class='largeText'>Don't just
+        <br />search.
+        <br />Find.</span>
+      <div class='secondary'>
+        <span class='mediumText'>Real-time available properties based
+          <br />on your preferences</span>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <form class='email-cap' action='/newEmail' method='POST'>
+          <input type='email' name='address' placeholder='Your email' />
+          <input type='submit' value='OK' />
+        </form>
+
+        <span class='smallText'>Register to be a part of our exciting launch</span>
+      </div>
+    </div>
+
+    <img src='WigwammApp.png' class='screenshot' />
+  </div>
+
+  <div class='section section2'>
+
+    <div class='rightCont'>
+      <span class='largeText'>Be the first
+        <br />to know.</span>
+
+      <div class='secondary'>
+        <span class='mediumText'>And to react</span>
+        <br />
+        <br />
+        <span class='smallText'>See new properties as the come up and
+          <br />book viewings directly through the app.</span>
+      </div>
+    </div>
+    <img src='WigwammNotification.png' class='screenshot' />
+  </div>
+
+  <div class='section footer'>
+    <img class='icon' style='top:50px;' src='WigwammLight.png' />
+
+    <div class='leftCont' style='position:absolute;'>
+      <span class='largeText' style='left:0;bottom:0;position:relative;'>Wigwamm</span>
+      <br />
+      <span class='mediumText'>We believe if you give people better
+        <br />information, they'll make better
+        <br />decisions.</span>
+      <br />
+      <br />
+      <span class='smallText'>
+        Thanks for taking the time to visit us.
+        <br />We'd love to hear your thoughts.
+        <br />We'd like it better if you want to help us.
+        <br />Please pick up the phone and give us a call:
+        <br />077 95 27 35 52 and ask for Rayhan.
+        <br />We're not a tech company. We're a
+        <br />group of people building simple apps
+        <br />that dramatically improve your property
+        <br />experience. We believe that people make
+        <br /> better decisions than computers. We also
+        <br />believe computers can help put the
+        <br />right information in front of you,
+        <br />so your decisions take less
+        <br />time and are more certain.
+        <br />Have a great day.
+      </span>
+    </div>
+
+    <div class='rightCont'>
+      <span class='largeText' style='left:0;bottom:0;position:relative;'>Join Us</span>
+      <br />
+      <span class='mediumText'>We're looking for:</span>
+      <hr />
+      <span class='smallText'>&ensp;&ensp;&ensp;Front-End Developer</span>
+      <hr />
+      <span class='smallText'>&ensp;&ensp;&ensp;UI/UX Designer</span>
+      <hr />
+      <span class='smallText'>Let's talk - <a href='mailto:jobs@wigwamm.com'>jobs@wigwamm.com</a></span>
+
+    </div>
+  </div>
+
+  <style>
+    @media(max-width:1000px) {
+      .email-cap input[type=email] {max-width:300px!important;}
+      .leftText, .rightText {
+        display: none;
+      }
+      .leftCont,
+      .rightCont {
+        left: 0px !important;
+        width:100% !important;
+        position:relative !important;
+        text-align:center;
+      }
+      .footer {
+        padding-top:100px;
+        padding-bottom:100px;
+      }
+      .footer .rightCont {
+        padding-top:100px;
+      }
+      .screenshot {
+        position: relative !important;
+        left:50% !important;
+        margin-left:-136px;
+      }
+    }
+
+    a {
+      color: white;
+    }
+
+    .leftCont,
+    .rightCont {
+      width: 30%;
+      left: 7%;
+      position: relative;
+      top: 50px;
+    }
+
+    .rightCont {
+      width: auto;
+      left: 60%;
+    }
+
+    .email-cap input[type=email] {
+      background: white;
+      border: none;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 16pt;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .email-cap input[type=submit] {
+      background: #FF4000;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      position: relative;
+      margin-left: -70px;
+      bottom: -2px;
+      font-size: 2em;
+    }
+
+    .secondary {
+      bottom: 58px;
+      left: 60%;
+    }
+
+    .largeText {
+      font-size: 40pt;
+    }
+
+    .mediumText {
+      font-size: 16pt;
+      font-weight: bold;
+    }
+
+    .smallText {
+      font-size: 12pt;
+    }
+
+    .leftText,
+    .rightText {
+      font-size: 20pt;
+      height: 100%;
+      position: absolute;
+      line-height: 3em;
+    }
+
+    .leftText {
+      left: 50px;
+    }
+
+    .rightText {
+      right: 50px;
+    }
+
+    .icon {
+      position: absolute;
+      left: 50%;
+      margin-left: -30px;
+      top: 0.5em;
+    }
+
+    .header {
+      position: relative;
+      height: 80px;
+      background: #fff;
+      color: #565656;
+    }
+
+    .screenshot {
+      position: absolute;
+      bottom: -88px;
+      left: 7%;
+    }
+
+    .section {
+      height: auto;
+      min-height: 550px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .section1 {
+      background: #FF4000;
+      color: white;
+    }
+
+    .section2 {
+      background: #fff;
+      color: #3B4D5C;
+    }
+
+    .footer {
+      height: auto;
+      background: #26313B;
+      color: white;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+    }
+  </style>
+</body>
+
+</html>
